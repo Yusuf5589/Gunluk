@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Yusuf Kapkiner-Yusuf5589">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css"
+    rel="stylesheet"
+    />
+    <title>Günlük</title>
+</head>
+<body style="width: 100%; height: 100vh;">
+
+
+    <div class="container text-center mt-3">
+        <b style="font-size: 60px; font-family: 'Courier New', Courier, monospace; letter-spacing: 5px;">BiarchSoft</b>
+    </div>
+    <div class="container d-flex justify-content-end">
+        <b style="font-size: 25px; font-family: 'Courier New', Courier, monospace; letter-spacing: 1px;" id="tarih"></b>
+    </div>
+    <div class="container border border-3 bg-dark mt-1 py-1">
+        <textarea style="font-size: 19px; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; letter-spacing: 0.5px;" rows="10" class="container-fluid mt-2 px-4" placeholder="Bugün oldukça yoğun bir gün geçirdim. Sabah erkenden kalktım ve işe gitmeden önce egzersiz yaptım. İşte yoğun bir günüm vardı ve toplantılarla doluydu. Öğle arasında biraz yürüyüş yaptım ve öğleden sonra çalışmalarımı tamamladım. Akşam yemeğinde evde kalmaya karar verdim ve kitap okudum. Şimdi yorgunum ama günün nasıl geçtiğine dair iyi hissediyorum." id="yazi"></textarea>
+    </div>
+
+
+    <div class="container d-flex justify-content-end p-0">
+        <button class="btn btn-black w-25" id="buton">GÖNDER</button>
+    </div>
+
+
+    <div id="yazilar">
+    </div>
+
+    <button class="d-none" id="sil"></button>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!-- MDB -->
+    <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"
+    ></script>
+</body>
+</html>
